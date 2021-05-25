@@ -1,0 +1,326 @@
+body{
+  background-color: white;
+font-family: 'Oxygen', sans-serif;
+}
+
+.heading_1, .heading_2, .heading_3{
+  font-weight: 700;
+font-size: 2.1rem;
+}
+
+.text_1, .text_2{
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.59);
+
+}
+
+.ilustrator-container{
+  text-align: center;
+}
+
+
+.input{
+
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgb(192, 190, 195);
+}
+
+
+/* --- HEADING SECTION -- */
+
+
+.heading{
+  padding: 2% 5%;
+}
+
+
+.nav-item{
+  margin: 0 0 0 50px;
+}
+
+.illustrators{
+  width: 600px;
+  height: 400px;
+}
+
+.container-fluid-1, .container-fluid-2, .container-fluid-3{
+  padding: 8% 5%;
+  text-align: left;
+}
+
+
+.get-started-submit-1{
+  padding: 2% 0 4%;
+}
+.email-1{
+width: 300px;
+height: 43px;
+border-radius: 5px;
+border-color: rgb(163, 163, 163);
+position: relative;
+top: 3px;
+
+}
+
+.button-1{
+  margin-left: 20px;
+  width: 200px;
+font-family: 'Oxygen', sans-serif;
+font-size: 0.9rem;
+font-weight: 700;
+ }
+
+
+/*  ---------   SECTION 2    ---------- */
+
+
+.container-fluid-2 {
+  background-color:   hsl(240, 75%, 98%);
+  text-align: left;
+}
+
+.link-information{
+  color: rgb(72, 168, 111);
+}
+
+.link-information:hover{
+  color: rgb(67, 110, 84);
+}
+
+
+.testimonials{
+  margin-top: 20px;
+  width: 500px;
+  height: 250px;
+  background-color: white;
+display: inline-block;
+
+
+}
+
+.testimonials_text{
+  padding: 0px 15px 0 15px;
+}
+
+.photo-testimonials{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: 15px;
+
+
+}
+
+.testimonials-details{
+  padding-left: 15px;
+
+}
+
+.name{
+  font-weight: 700;
+}
+
+.work{
+  color: rgba(0, 0, 0, 0.59)
+}
+
+
+/*-----   SECTION 3    ----- */
+
+.container-fluid-3{
+  background-color: hsl(238, 22%, 44%);
+color: white;
+}
+
+.email-2{
+width: 400px;
+height: 50px;
+border-radius: 5px;
+border-color: rgb(163, 163, 163);
+
+
+}
+
+.button-2{
+  margin-top: 15px;
+  width: 280px;
+font-family: 'Oxygen', sans-serif;
+font-size: 0.9rem;
+font-weight: 700;
+margin-right: 98px;
+ }
+
+.get-started-submit-2{
+  text-align: center;
+}
+
+
+
+
+/**   SECTION 4   **/
+
+.container-fluid-footer{
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+  padding: 8% 5%;
+}
+
+
+.options{
+  visibility: hidden;
+}
+
+.logo-footer{
+  margin-bottom: 15px;
+  position: relative;
+  left: 41px;
+}
+
+ul{
+  list-style: none;
+}
+
+.social-media{
+  text-align: center;
+
+}
+.icon{
+  margin: 15px;
+display: inline-block;
+
+}
+
+
+/** ATRIBITION SECTION */
+
+ .attribution { font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution{
+  padding-top: 15px;
+  font-size: 1rem;
+}
+
+.burguer-menu-container{
+  background-color: rgb(201, 194, 240);
+  /* height: 100%; */
+  left: -100%;
+  display: none;
+
+}
+
+
+
+@media (max-width: 995px) {
+
+  .display-burguer-menu{
+    background-color: rgb(201, 194, 240);
+    height: 100%;
+    width: 80%;
+    right: -100%;
+    display: block;
+  }
+
+.burguer-link{
+  display: block;
+  margin-bottom:  30px;
+
+}
+
+  .illustrators {
+    width: 58%;
+    height: 75%;
+    margin-top: 50px;
+  }
+
+.get-started-submit-2{
+  text-align: left;
+
+}
+
+
+.email-2, .button-2{
+  margin-left: 0px;
+}
+
+}
+
+.button-2{
+width: 200px;
+font-size: 0.8rem;
+height: 40px;
+
+
+ }
+
+ .email-2{
+   width: 300px;
+   height: 40px;
+ }
+
+
+@media (max-width: 558px){
+
+  body{
+    font-size: 0.8rem;
+  }
+
+
+
+  .heading_1, .heading_2, .heading_3{
+    font-size: 1.5rem;
+  }
+
+  .illustrators{
+    width: 65%;
+    height: 75%;
+  }
+
+/*   FIRST SECTION */
+
+
+.email-1{
+  width: 200px;
+  height: 40px;
+}
+
+.button-1{
+  width: 150px;
+  height: 40px;
+  /* margin-top: 15px; */
+ margin-left: 20px;
+
+}
+
+
+/* SECOND SECTION */
+
+.container-fluid-3{
+  text-align: center;
+}
+
+  .testimonials{
+    width: 80%;
+    text-align: center;
+
+  }
+
+  .email-2{
+    width: 250px;
+    height: 35px;
+  }
+
+
+
+  .button-2{
+    width: 180px;
+    height: 40px;
+    font-size: 0.8rem;
+    margin-left: 142px;
+  }
+
+  .get-started-submit-2{
+    text-align: center;
+  }
+}
