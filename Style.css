@@ -354,13 +354,11 @@ padding-bottom: 5%;
 
 .mobile-navbar-background{
   background-color:   hsl(240, 75%, 98%);
-/* transition: left all ease-in-out; */
 }
 
 .mobile-nav-link{
   margin: 3% 3% 5% 7%;
-/* text-decoration: underline 0,15em rgba(0,0,0,0.5); */
-/* text-decoration: hidden; */
+
 }
 
 .mobile-nav-link:hover{
