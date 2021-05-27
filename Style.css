@@ -1,6 +1,7 @@
 body{
   background-color: white;
 font-family: 'Oxygen', sans-serif;
+
 }
 
 .heading_1, .heading_2, .heading_3{
@@ -202,14 +203,11 @@ display: inline-block;
   font-size: 1rem;
 }
 
-.burguer-menu-container{
-  background-color: rgb(201, 194, 240);
-  /* height: 100%; */
-  left: -100%;
-  display: none;
 
+
+.navbar{
+  padding: 0;
 }
-
 
 
 @media (max-width: 995px) {
@@ -323,4 +321,56 @@ height: 40px;
   .get-started-submit-2{
     text-align: center;
   }
+}
+
+
+/*   JAVASCRIPT CSS SECTION  */
+
+.navbar-toggler{
+width: 57px;
+height: 47px;
+background-color: white;
+margin-top: 0;
+padding: 10px 3px 3px 13px;
+
+}
+
+.line {
+  background-color: hsl(240, 73%, 88%);
+  border-radius: 10px;
+  width: 30px;
+  height: 0.205rem;
+margin-bottom: 6px;
+
+}
+
+
+.navbar-mobile{
+  text-align: right;
+padding-bottom: 5%;
+
+}
+
+.mobile-navbar-background{
+  background-color:   hsl(240, 75%, 98%);
+/* transition: left all ease-in-out; */
+}
+
+.mobile-nav-link{
+  margin: 3% 3% 5% 7%;
+/* text-decoration: underline 0,15em rgba(0,0,0,0.5); */
+/* text-decoration: hidden; */
+}
+
+.mobile-nav-link:hover{
+  text-decoration: underline;
+  width: inherit;
+
+  text-decoration-color:  hsl(238, 22%, 44%);
+}
+
+.nav-item{
+border-bottom: solid;
+border-color: white;
+border-radius: 2%;
 }
