@@ -10,6 +10,10 @@ font-family: 'Oxygen', sans-serif;
 font-size: 2.1rem;
 }
 
+.heading_1, .heading_2{
+  color: hsl(240, 87%, 22%);
+}
+
 .text_1, .text_2{
   padding-top: 20px;
   color: rgba(0, 0, 0, 0.59);
