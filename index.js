@@ -1,5 +1,7 @@
 
 
+
+
 var changeInputStyle = $("input").addClass("input");
 
 
@@ -20,4 +22,4 @@ var mobileNavbar = $(".navbar-toggler").on("click", function(){
   var textHeaddinContainer = $(".heading").addClass("mobile-heading");
   var mobileNavbarBackgound = $(".navbar-nav").addClass("mobile-navbar-background");
 
-});
+})
