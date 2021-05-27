@@ -41,6 +41,11 @@ font-size: 2.1rem;
   margin: 0 0 0 50px;
 }
 
+.nav-link:hover{
+
+  text-decoration: underline;
+}
+
 .illustrators{
   width: 600px;
   height: 400px;
@@ -361,12 +366,6 @@ padding-bottom: 5%;
 
 }
 
-.mobile-nav-link:hover{
-  text-decoration: underline;
-  width: inherit;
-
-  text-decoration-color:  hsl(238, 22%, 44%);
-}
 
 .nav-item{
 border-bottom: solid;
